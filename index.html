@@ -1,0 +1,42 @@
+<body style="background-image: url(q\ pasa\ ore.jpg);"
+background=size: cover;>
+
+<p>oddy</p>
+
+<p>¿oddy es bonito?</p>
+
+<p>SI</p>
+<input type="checkbox" name="si" id="si">
+
+<p>NO</p>
+<input type="checkbox" name="no" id="no">
+
+<p>TALVEZ</p>
+<input type="checkbox" name="talvez" id="talvez">
+
+<script>
+document.getElementById("no").addEventListener("change", function() {
+    if (this.checked) {
+        alert("mentira oddy es muy bonito");
+    }
+});
+
+
+
+document.getElementById("talvez").addEventListener("change", function() {
+    if (this.checked) {
+        alert("no talvez ni ostras oddy es muy bonito");
+    }
+});
+
+
+
+document.getElementById("si").addEventListener("change", function() {
+    if (this.checked) {
+        alert("oddy es muy bonito");
+    }
+});
+
+</script>
+
+</body>
